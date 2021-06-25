@@ -2,11 +2,12 @@
 body {
 	font-family: monospace;
 	color: #333;
+	margin: 0px;
 }
 nav li{
 	list-style: none;
 	display: inline-block;
-	background-color: aquamarine;
+	background-color: floralwhite;
 	padding: 8px;
 	margin-left: 14px;
 }
@@ -16,8 +17,26 @@ nav ul{
 nav{
 	display: flex;
 	align-items: center;
+	background-color: black;
+	height: 80px;
 	justify-content: space-between;
 }
-nav h1{
-	padding: 10px;
+.title-1{
+	font-size: 15px;
+	margin-left: 20px;
+	font-weight: 700;
+	padding: 8px;
+	background-color: floralwhite;
+}
+.center-init{
+	background-color: aqua;
+	display:flex;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+}
+.box-init{
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+	background-color: whitesmoke;
 }
