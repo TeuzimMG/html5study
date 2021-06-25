@@ -29,14 +29,28 @@ nav{
 	background-color: floralwhite;
 }
 .center-init{
-	background-color: aqua;
 	display:flex;
 	height: 500px;
-	align-items: center;
-	justify-content: center;
 }
+
 .box-init{
 	padding: 5px 10px 5px 10px;
 	border-radius: 10px;
 	background-color: whitesmoke;
+}
+.box{
+	height: 400px;
+	background-color: seagreen;
+}
+.box-center{
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	height: 2000px;
+}
+.b1{
+	width: 700px;
+}
+.b2{
+	width:500px
 }
