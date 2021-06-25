@@ -1,0 +1,23 @@
+/* Flex Container */
+body {
+	font-family: monospace;
+	color: #333;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	background-color: aquamarine;
+	padding: 8px;
+	margin-left: 14px;
+}
+nav ul{
+	margin-right: 70px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav h1{
+	padding: 10px;
+}
