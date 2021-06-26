@@ -27,30 +27,33 @@ nav{
 	font-weight: 700;
 	padding: 8px;
 	background-color: floralwhite;
-}
-.center-init{
-	display:flex;
-	height: 500px;
-}
-
-.box-init{
-	padding: 5px 10px 5px 10px;
-	border-radius: 10px;
-	background-color: whitesmoke;
-}
-.box{
-	height: 400px;
-	background-color: seagreen;
-}
-.box-center{
-	padding: 50px;
+}	
+.container {
+	align-content: flex-end;
+	max-width: 420px;
+	height: 300px;
+	margin: 50px auto;
 	display: flex;
-	justify-content: space-around;
-	height: 2000px;
+	border: 1px solid #ccc;
+	flex-wrap: wrap;
 }
-.b1{
-	width: 700px;
+.item{
+	min-height: 70px;
+	flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
 }
-.b2{
-	width:500px
+.button{
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 2px;
+}
+#area{
+	height: 600px;
+	justify-content: center;
+	align-items: flex-start;
+	display: flex;
 }
