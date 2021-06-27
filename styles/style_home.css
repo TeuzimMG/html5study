@@ -1,12 +1,20 @@
 /* Flex Container */
+
+
+
+
+
 body {
 	font-family: monospace;
 	color: #333;
 	margin: 0px;
 }
 nav li{
+	color:black;
 	list-style: none;
+	font-weight: 900;
 	display: inline-block;
+	border-radius: 5%;
 	background-color: floralwhite;
 	padding: 8px;
 	margin-left: 14px;
@@ -21,39 +29,73 @@ nav{
 	height: 80px;
 	justify-content: space-between;
 }
+.box-initial{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	display: inline-flex;
+	background-color: rgba(94, 94, 94, 0.336);
+	-webkit-box-shadow: -12px -8px 12px -6px rgba(0, 0, 0, 0.603); 
+	box-shadow: -12px -8px 12px -6px rgba(0, 0, 0, 0.569);
+}
+.box-initial img{
+	display: inline-block;	
+	padding: 20px;
+	width: 240px;
+	border-radius: 50%;
+	height: 240px;
+}
+.box-initial section{
+	max-width: 650px;
+	margin: 50px 30px;
+}
+
 .title-1{
-	font-size: 15px;
+	font-size: 22px;
+	text-shadow: -2px -1px 9px rgba(255,243,243,0.44);
 	margin-left: 20px;
+	border-radius: 8%;
 	font-weight: 700;
-	padding: 8px;
-	background-color: floralwhite;
+	padding: 12px;
+	color:whitesmoke;
 }	
-.container {
-	align-content: flex-end;
-	max-width: 420px;
-	height: 300px;
-	margin: 50px auto;
-	display: flex;
-	border: 1px solid #ccc;
-	flex-wrap: wrap;
-}
-.item{
-	min-height: 70px;
-	flex: 1;
-	margin: 5px;
-	padding: 0 10px;
-	background: tomato;
-	text-align: center;
-	font-size: 1.5em;
-}
-.button{
-	padding: 10px;
+.box{
+	height: fit-content;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	border: 2px solid black;
-	border-radius: 2px;
+	text-align: justify;
+	margin:50px;
+	border-radius: 5px;
 }
-#area{
-	height: 600px;
+.box h1{
+	margin-bottom: 5px;
+	
+}
+.n1{
+
+	width: 600px;
+}
+.boxes{
+	display: inline-flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+}
+#initial{
+	margin-top: 50px;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+li:hover{
+	transition: 0.5s;
+	background-color: wheat;
+}
+a{
+	text-decoration: none;
+	color:black;
 }
